@@ -22,7 +22,7 @@ tensorflow == 1.15.0 <br>
 
 ## 运行
 main.py中：<br>
-···python
+```python
 train(config,model,save_path,trainBatchGen,valBatchGen)
 test(config,model,save_path,testBatchGen)
 predict(word2idx,idx2word,idx2label)
