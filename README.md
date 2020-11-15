@@ -20,7 +20,7 @@
 需要的环境
 tensorflow == 1.15.0 <br>
 
-##运行
+## 运行
 main.py中：<br>
 ···python
 train(config,model,save_path,trainBatchGen,valBatchGen)
@@ -30,7 +30,7 @@ predict(word2idx,idx2word,idx2label)
 分别对应：训练和验证、测试、预测<br>
 需要注意的是，在进行预测的时候，是在终端输入一句话，会返回命名实体识别的结果，当输入q的时候退出。<br>
 
-##相关结果
+## 相关结果
 ```python
 ====验证是否得到相关数据===
 word2idx: 4026
