@@ -1,0 +1,2 @@
+model_checkpoint_path: "/content/drive/My Drive/ner/checkpoint/msra/best_validation"
+all_model_checkpoint_paths: "/content/drive/My Drive/ner/checkpoint/msra/best_validation"
